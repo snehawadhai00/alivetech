@@ -11,6 +11,7 @@ public class RegistrationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
+
         Toast.makeText(this, "Hlo From Me", Toast.LENGTH_SHORT).show();
     }
 }
